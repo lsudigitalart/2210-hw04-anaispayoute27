@@ -7,12 +7,11 @@ function setup() {
 let ey, ex;
 
 function draw() {
-  background(200);
-
+  background(230, 177, 101);
   fill(150, 255, 255)
   square(mouseX, height-100, 50);
   // line(mouseX, mouseY, pmouseX, pmouseY);
-  fill(255, 105, 180)
+  fill(255, 19, 240)
   ellipse(ex, ey, 10);
   ey = ey + 10;
 
